@@ -2,28 +2,29 @@ import React from 'react';
 import './Navbar.css';
 import { Nav } from 'react-bootstrap';
 import { FaHome, FaFolder, FaPortrait, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <Nav className='rounded-4 justify-content-between border border-secondary'>
         <div className='d-flex'>
             <Nav.Item className='ms-3'>
-                <Nav.Link>
+                <Link className='nav-link' to='/'>
                     <FaHome className='me-2' size={20}></FaHome>
                     Me
-                </Nav.Link>
+                </Link>
             </Nav.Item>
             <Nav.Item className='ms-3'>
-                <Nav.Link>
+                <Link className='nav-link' to='/projects'>
                     <FaFolder className='me-2' size={20}></FaFolder>
                     Projects
-                </Nav.Link>
+                </Link>
             </Nav.Item>
             <Nav.Item className='ms-3'>
-                <Nav.Link>
+                <Link className='nav-link' to='/contact'>
                     <FaPortrait className='me-2' size={20}></FaPortrait>
                     Contact
-                </Nav.Link>
+                </Link>
             </Nav.Item>
         </div>
         <div className='d-flex'>

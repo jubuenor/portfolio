@@ -1,13 +1,11 @@
 import './App.css';
-import NavBar from './Components/Navbar/Navbar';
-import About from './Components/About/About';
+import AppRouter from './Router/Router';
 
 function App() {
   return (
     <div className="app">
       <div className='main'>
-        <NavBar></NavBar>
-        <About></About>
+        <AppRouter></AppRouter>
       </div>
       <section>
         <div className="wave"></div>
