@@ -1,0 +1,24 @@
+.me{
+    background-color: #222432;
+    color: white;
+    height: auto;
+}
+/* Large  */
+@media only screen and (min-width: 768px) {
+    .header{
+        flex-direction: row;
+    }
+}
+/* Medium */
+@media only screen and (max-width: 768px) {
+    .header{
+        flex-direction: row;
+    }
+}
+/* Small */
+@media only screen and (max-width: 576px) {
+    .header{
+        text-align: center;
+        flex-direction: column;
+    }
+}

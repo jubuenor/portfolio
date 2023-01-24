@@ -6,3 +6,27 @@
 .nav a{
     color: white;
 }
+
+/* Medium */
+@media only screen and (min-width: 576px){
+    .nav-item{
+        margin-left: 1rem;
+    }
+
+    .nav{
+        justify-content: space-between;
+    }
+
+}
+/* Small */
+@media only screen and (max-width: 576px) {
+    .nav-link span{
+        display: none;
+    }
+    .nav-item{
+        margin-left: 0;
+    }
+    .nav{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+.projects{
+    background-color: #222432;
+    height: auto;
+}
+.projects .card{
+    background-color: #3F4048 ;
+    width: 18rem;
+}
+.card .card-body{
+    color: white;
+}
