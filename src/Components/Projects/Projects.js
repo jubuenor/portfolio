@@ -31,7 +31,7 @@ function Projects() {
         <Card.Body>
           <Card.Title>E-commerce App</Card.Title>
           <Card.Text>
-            E-commerce focused on food sales. This app has crud functionality. <span className='text-info'>To Update</span>
+            E-commerce focused on food sales. This app has crud functionality. 
           </Card.Text>
           <div className='d-flex justify-content-evenly'>
             <a className='btn btn-secondary disabled' href="https://jubuenor.github.io/blg-front/" target="_blank" rel='noreferrer'>Web site</a>
@@ -51,7 +51,7 @@ function Projects() {
             <br />
           </Card.Text>
           <div className='d-flex justify-content-evenly'>
-            <a className='btn btn-secondary disabled' href="https://jubuenor.github.io/blg-front/" target="_blank" rel='noreferrer'>Web site</a>
+            <a className='btn btn-secondary' href="https://jubuenor.github.io/Figma-LP-clone/" target="_blank" rel='noreferrer'>Web site</a>
             <a className='btn btn-secondary' href="https://github.com/jubuenor/Figma-LP-clone" target="_blank" rel='noreferrer'>Github</a>
           </div>
         </Card.Body>
@@ -67,7 +67,6 @@ function Projects() {
             <br />
           </Card.Text>
           <div className='d-flex justify-content-evenly'>
-            <a className='btn btn-secondary disabled' href="https://jubuenor.github.io/blg-front/" target="_blank" rel='noreferrer'>Web site</a>
             <a className='btn btn-secondary' href="https://github.com/jubuenor/ShutEmAll" target="_blank" rel='noreferrer'>Github</a>
           </div>
         </Card.Body>
@@ -81,7 +80,6 @@ function Projects() {
             A python game using Pygame which everybody cand learn about basic quantum mechanics.
           </Card.Text>
           <div className='d-flex justify-content-evenly'>
-            <a className='btn btn-secondary disabled' href="https://jubuenor.github.io/blg-front/" target="_blank" rel='noreferrer'>Web site</a>
             <a className='btn btn-secondary' href="https://github.com/jubuenor/QuantumGames" target="_blank" rel='noreferrer'>Github</a>
           </div>
         </Card.Body>
