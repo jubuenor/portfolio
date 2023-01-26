@@ -8,7 +8,7 @@ function Me() {
     <Container className='me rounded-4 p-4 mt-5 border border-secondary'>
             <div className='d-flex header'>
                 <div className='m-3 text-center'>
-                    <img src="/images/profile.jpg" alt="profile" className='rounded-circle' width={128}/>
+                    <img src="/images/logo.png" alt="profile" className='rounded-circle' width={128}/>
                     <p className='bg-success bg-opacity-50 fw-bolder p-1 mt-3 rounded' >Available to hire</p>
                 </div>
                 <div>
